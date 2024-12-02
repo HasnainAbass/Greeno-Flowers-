@@ -8,16 +8,16 @@ import { IoLogoGoogleplus } from "react-icons/io";
 
 function Hearo() {
    return (
-      <main className="h-auto w-full bg-gradient-to-b from-fuchsia-900 to-green-400  flex items-center justify-between md:pl-20 gap-8 md:gap-0 sm:flex-col md:flex-row">
+      <main className="h-auto w-full bg-gradient-to-b from-fuchsia-900 to-green-400  flex items-center justify-between  md:px-5 md:py-8 lg:pl-20 gap-8 md:gap-3 flex-col md:flex-row">
          {/* 1st contant div */}
-         <div className="h-auto w-96">
-         <h1 className="text-5xl font-bold text-white">Hello  I am Hasnain Abass</h1>
+         <div className="h-auto w-[460px] md:w-96 sm:w-[600px]">
+         <h1 className="text-5xl font-bold text-white">Hello !<br /> I am Hasnain Abass</h1>
             <p className="font-bold">
                <span className="bg-yellow-300 h-7 ">Explore Now ....................!</span>
 
-               As a passionate software engineer, I thrive on the intricate dance between logic and creativity. Currently immersed in the dynamic world of WebHR, my expertise centers around React Native, where I seamlessly blend technology with innovation.</p>
+               As a passionate software engineer  I thrive on the intricate dance between logic and creativity. Currently immersed in the dynamic world of WebHR  my expertise centers around React Native  where I seamlessly blend technology with innovation.</p>
             <p>
-               With a fervor for crafting elegant solutions, I navigate the ever-evolving landscape of software development. My journey involves translating concepts into code, creating seamless user experiences, and constantly pushing the boundaries of whats possible</p>
+               With a fervor for crafting elegant solutions. I navigate the ever-evolving landscape of software development. My journey involves translating concepts into code  creating seamless user experiences  and constantly pushing the boundaries of whats possible</p>
             <div className=" w-full flex pl-6 pt-9 gap-2">
                <div className="h-12 w-12 flex items-center justify-center cursor-pointer hover:bg-blue-500 bg-green-400 ">
                   <FaFacebookF />
@@ -37,8 +37,8 @@ function Hearo() {
             </div>
          </div>
          {/* 2nd image div */}
-         <div>
-            <Image className="rounded-3xl" src={"/Hasnainabass.png"} width={500} height={300} alt="hasnain" />
+         <div >
+            <Image className="rounded-3xl h-[400px] sm:h-[500px] md:h-[400px] lg:h-[500px] w-[460px] sm:w-[600px] lg:w-[500px]" src={"/Hasnainabass.png"} width={500} height={300} alt="hasnain" />
          </div>
 
       </main>

@@ -9,7 +9,7 @@ const Header = () => {
     <div>
       <nav className="h-20 w-full  flex items-center justify-between px-5 bg-gradient-to-r from-white to-green-500">
         <div>
-          <h1 className="md:text-5xl font-bold sm:hidden md:block">
+          <h1 className="hidden sm:block sm:text-3xl md:text-5xl font-bold">
             My Portfolio
           </h1>
         </div>
